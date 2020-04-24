@@ -1,0 +1,89 @@
+  <!Doctype html>
+  <html lang="pt-br" dir="ltr">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+     <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+     <title>TABLE</title>
+   </head>
+   <body>
+     <h2>Aula de TABLE</h2>
+     <div class="container">
+
+       <nav>
+         <ul>
+           <li><a href="index.html">INÍCIO</a></li>
+           <li><a href="exemplo-1.html">1 - Table Basic</a></li>
+           <li><a href="exemplo-2.html">2 - Table-Head</a></li>
+           <li><a href="exemplo-3.html">3 - COLSPAN/ROWSPAN</a></li>
+           <li><a href="exemplo-4.html">4 - Table - CSS</a></li>
+         </ul>
+       </nav>
+
+        <table id="tbl-01">
+            <thead>
+              <tr>
+                <th>MÊS</th>
+                <th>LUCROS</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td rowspan="4">JAN</td>
+              <td>R$ 100,00</td>
+            </tr>
+            <tr>
+              <td>R$ 500,00</td>
+            </tr>
+            <tr>
+              <td>R$ 300,00</td>
+            </tr>
+            <tr>
+              <td>R$ 50,00</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td colspan="2">TOTAL = R$ 950,00</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table id="tbl-02">
+            <thead>
+              <tr>
+                <th>MÊS</th>
+                <th>LUCROS</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>JAN</td>
+              <td>R$ 100,00</td>
+            </tr>
+            <tr>
+              <td>FEV</td>
+              <td>R$ 100,00</td>
+            </tr>
+            <tr>
+              <td>MAR</td>
+              <td>R$ 100,00</td>
+            </tr>
+            <tr>
+              <td>ABR</td>
+              <td>R$ 100,00</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>TOTAL = </td>
+              <td>R$ 400,00</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+     </div>
+   </body>
+</html>

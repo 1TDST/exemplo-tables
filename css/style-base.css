@@ -23,4 +23,52 @@ h1,h2,h3{
   margin: 10px auto;
   padding: 10px;
   background: #ece4dd;
+  color: #fff;
+}
+
+#tbl-01{
+  margin-top: 30px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: 400;
+  border: 3px solid #000000;
+  border-collapse: collapse;
+  background-color: #292a27;
+}
+#tbl-01 th,td{
+  border: 3px solid #000000;
+}
+
+#tbl-01 td[colspan]{
+  background-color: #1a1f8e;
+  text-align: center;
+}
+
+#tbl-01 td[rowspan]{
+  background-color: #1a1f8e;
+  text-align: center;
+}
+
+#tbl-02{
+  margin-top: 30px;
+  width: 50%;
+  font-size: 30px;
+  border: 3px solid #000000;
+  border-collapse: collapse;
+  background-color: #292a27;
+}
+#tbl-02 th,td{
+  border: 3px solid #000000;
+}
+
+#tbl-02 tr:nth-child(even){
+  background-color: #f5abe5;
+}
+
+#tbl-02 tr:nth-child(odd){
+  background-color: #6dced1;
+}
+
+#tbl-02 tr:HOVER{
+  background-color: #26d228;
 }
