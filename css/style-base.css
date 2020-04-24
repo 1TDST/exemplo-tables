@@ -11,6 +11,8 @@
 body{
   font-family: 'Lato',sans-serif;
   font-size:20px;
+  color: #FFFFFF;
+  background: #000000;
 }
 
 h1,h2,h3{
@@ -22,8 +24,13 @@ h1,h2,h3{
   height: 800px;
   margin: 10px auto;
   padding: 10px;
-  background: #ece4dd;
+  background: rgb(39,39,39);
   color: #fff;
+}
+
+nav{
+  text-decoration-color: #FFFFFF;
+  color: rgb(230, 31, 90)
 }
 
 #tbl-01{
